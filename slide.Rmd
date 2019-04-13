@@ -378,7 +378,7 @@ product$Category %>%
 
 # 日付の操作 {#date}
 ## **lubridate** パッケージ {#lubridate}
-<div class="column1”>
+<div class="column1">
 ![lubridate](img/lubridate.png)
 </div>
 
@@ -391,6 +391,7 @@ ymd("20110604")
 ymd(20120101) + years(1)
 ```
 詳しくは[こちら](http://estrellita.hatenablog.com/entry/2015/06/18/080651)や[こちら](http://estrellita.hatenablog.com/entry/2015/06/18/080651)を参照
+
 </div>
 
 
