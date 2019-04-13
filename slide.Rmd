@@ -117,6 +117,23 @@ digraph data_analytics {
 3. FAQ
 
 # 本題のまえに {#firstofall}
+## Rとパッケージ {#rpackage}
+### ざっくり
+- Rはパッケージで機能を拡張することができる
+- パッケージには機能特価の関数が詰まっている
+- `install.packages()` でインストール
+
+
+## パッケージ内の関数の表記
+readr パッケージの read_csv 関数を使いたいとき
+```{r eval=FALSE}
+# 方法 1
+library(readr)
+dat <- read_csv("hoge.csv")
+# 方法 2
+dat <- readr::read_csv("hoge.csv")
+```
+
 ## tidyverse について {#abouttidyverse}
 ### tidyverse(概念)
 ざっくり:
@@ -134,7 +151,7 @@ library(tidyverse)
 ```
 </div>
 
-<div class="column2”>
+<div class="column2">
 読み込まれるパッケージ
 
 - ggplot2: 可視化

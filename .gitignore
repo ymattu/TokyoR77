@@ -4,3 +4,4 @@
 .Ruserdata
 .DS_Store
 sampledata_small/
+.httr-oauth
