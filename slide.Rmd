@@ -196,6 +196,7 @@ https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
 ## この発表のゴール {#todaysgoal}
 - Rの **dplyr** パッケージで簡単な集計ができるようになること
 - dplyrや他のパッケージで何ができるのかをなんとなく把握して、「ググり力」を身につける
+- パッケージ名だけでも覚えて帰ってください m(__)m
 
 # 本日のデータ {#todaysdata}
 
