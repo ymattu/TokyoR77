@@ -117,7 +117,7 @@ digraph data_analytics {
 3. FAQ
 
 # 本題のまえに {#firstofall}
-## Rとパッケージ {#rpackage}
+## Rとパッケージ {#rpackage0}
 ### ざっくり
 - Rはパッケージで機能を拡張することができる
 - パッケージには機能特価の関数が詰まっている
@@ -170,7 +170,7 @@ library(tidyverse)
 
 </div>
 
-<div class="column2”>
+<div class="column2">
 #### 特徴
 パッケージを使わないやり方より
 
@@ -179,7 +179,7 @@ library(tidyverse)
 - 他のtidyverseのパッケージと相性がいい
 </div>
 
-## **dplyr**の思想 {#pjilosophy_dplyr}
+## **dplyr**の思想 {#philosophy_dplyr}
 The dplyr package makes these steps fast and easy:
 - ...
 - It provides simple "verbs", functions that correspond to the most common data manipulation tasks, to help you translate your thoughts into code.
@@ -187,7 +187,7 @@ The dplyr package makes these steps fast and easy:
 
 https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
 
-## ざっくりと日本語訳 (#translate)
+## ざっくりと日本語訳 {#translate}
 - dplyr は、あなたの考えをコードに翻訳するための「動詞」を提供する。
 - 「動詞」はデータ操作に関わる関数群
 
@@ -216,6 +216,8 @@ sales <- read_csv("sampledata_small/csv/Sales.csv")
 product <- read_csv("sampledata_small/csv/Products.csv")
 user_master <- read_csv("sampledata_small/csv/UserMaster.csv")
 ```
+
+データ読み込みについて詳しくは[こちら](https://ymattu.github.io/TokyoR66/slide.html#/)も参照
 
 # **dplyr** {#dplyr}
 ## 列選択 {#select}
