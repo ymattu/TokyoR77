@@ -235,7 +235,19 @@ sum(1:3)
 ```
 
 ## なんでパイプ演算子が必要なのか? {#necessarity_pipe}
-ロボットの話を入れる
+![](img/robot1.png)
+
+[Tokyo.R#76 BeginneRSession-data pipeline](https://speakerdeck.com/kilometer/tokyo-dot-r-number-76-beginnersession-data-pipeline)
+
+## どう書くのか問題 {#howtowrite}
+![](img/robot2.png)
+
+## 思考の流れと書く流れ {#pipeline}
+![](img/robot3.png)
+
+## パイプ演算子を使うときのポイント {#hint_pipe}
+`結果 <- スタート地点` を書いて、やりたい処理をパイプでつないでいく
+
 
 ## 列選択のやりかたいろいろ {#selectfunctions}
 ```{r, eval=FALSE}
@@ -763,6 +775,8 @@ datlist %>%
 # まとめ {#matome}
 ## 言いたいこと {#iitaikoto}
 - （イマドキな）R でのデータハンドリングでは `tidyverse` は必須
+- 基礎的なことはTokyo.R初心者セッションや、宇宙本で!
+- 応用は、まずパッケージ名を知ることから(purrr, broom, etc...)
 - ぜひ使いこなせるようになりましょう。
 
 ## 本資料について
